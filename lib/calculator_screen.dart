@@ -71,12 +71,10 @@ class CalculatorScreen extends ConsumerWidget {
       WidgetRef ref, String symbol, Operation operation) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.white, // Ubah background menjadi putih
+        backgroundColor: Colors.white,
         padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-        textStyle: TextStyle(
-            fontSize: 20, color: Colors.black), // Warna hitam untuk teks
-        side: BorderSide(
-            color: Colors.deepPurple, width: 2), // Border ungu untuk tombol
+        textStyle: TextStyle(fontSize: 20, color: Colors.black),
+        side: BorderSide(color: Colors.deepPurple, width: 2),
       ),
       onPressed: () => ref.read(operationProvider.notifier).state = operation,
       child: Text(symbol),
