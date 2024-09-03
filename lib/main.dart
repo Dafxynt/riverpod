@@ -20,7 +20,8 @@ class KalkulatorBangunApp extends ConsumerWidget {
       title: 'Kalkulator Bangun Ruang',
       home: Navigator(
         pages: [
-          if (currentRoute == '/kalkulator') MaterialPage(child: LayarKalkulatorBangun()),
+          if (currentRoute == '/kalkulator')
+            MaterialPage(child: LayarKalkulatorBangun()),
           if (currentRoute == '/tentang') MaterialPage(child: HalamanTentang()),
         ],
         onPopPage: (route, result) {
