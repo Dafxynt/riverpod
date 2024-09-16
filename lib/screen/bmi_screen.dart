@@ -27,7 +27,7 @@ class _BMIScreenState extends ConsumerState<BMIScreen> {
         title: Text('BMI Calculator'),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(18.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
