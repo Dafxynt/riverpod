@@ -24,7 +24,7 @@ class CirclePage extends ConsumerWidget {
           style: TextStyle(
             fontSize: 15,
             fontWeight: FontWeight.bold,
-            color: Colors.white,
+            color: Color.fromARGB(255, 255, 122, 122),
           ),
         ),
         backgroundColor: Color.fromARGB(255, 5, 4, 1),
